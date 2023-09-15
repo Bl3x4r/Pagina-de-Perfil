@@ -1,0 +1,168 @@
+*{
+    list-style: none;
+}
+.imagen{
+    height: 50px;
+} 
+.nombre{
+    position: relative;
+    top: -25px;
+}
+.contenedor{
+    display: flexbox;
+    gap: 10px;
+}
+/*H1*/
+.nav{
+    background-color: #333333;
+    position: absolute;    
+    color: #ffffffff;
+    width: 900px;
+    height: 100 px;
+}
+.nav-title{
+    margin-left: 20px;
+    
+}
+.nav-links{
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav a{
+    
+    text-decoration: none;
+    color: #ffffffff;
+}
+button{
+    height: 25px;
+    width: 93px;
+    background-color: aqua;
+    color: #ffffffff;
+    border: none;
+    font-size: 15;
+    box-shadow: 3px #000000;
+}
+/*               Tarjeta de usuario           */
+.usuario{
+    width: 400px;
+    top: 200px;   
+    position: absolute;
+
+}
+.encabezado{
+    background-color: cadetblue;
+    position: relative;
+    height: 80px;
+}
+
+.imagen-usuario{
+   width: 80px;
+   position: absolute;
+   top: 40px;
+   left: 15px;
+   border-radius: 50%;
+   border: 2px solid grey;
+   padding: 2px;
+}
+
+.cuerpo{
+  padding: 30px 15px;
+  border: 2px solid black;
+}
+
+.iconos{
+    width: 13px;
+}
+/*Educacion*/
+.educacion{
+    width: 400px;
+    border: 2px solid black; 
+    position: absolute;
+    top: 500px;
+}
+.encabezado-educacion{
+    background-color: grey;
+    position: bottom;
+    height: 40px;
+    border: 2px solid grey;
+    
+}
+.cuerpo-educacion{
+    border: 2px solid slategray;
+}
+/*Solicitud de conexiones*/
+.solicitudes{
+    border: 1px solid black;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}
+.encabezado-solicitudes{
+    background-color: slategray;
+    height: 40px;
+}
+.cuerpo-solicitudes{
+    border: 1px solid black;
+}
+.iconos-solicitudes{
+    width: 13px;
+    position: relative;
+    top: -23px;
+}
+.numero-solicitudes{
+    position: relative;
+    top: 5px;
+    width: 15px;
+    left: 5px;
+    background-color: silver;
+    padding: 2px;
+    border-radius: 50%;
+}
+.titulo-solicitudes{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+/*Tus Conexiones*/
+.conexiones{
+    border: 1px solid black;
+    width: 300px;
+    position: absolute;
+    left: 450px;
+    top: 400px;
+}
+.encabezado-conexiones{
+    background-color: slategray;
+    height: 40px;
+}
+.cuerpo-solicitudes{
+    border: 1px solid black;
+}
+.iconos-solicitudes{
+    width: 13px;
+}
+.footer-conexiones{
+    border-top: 1px solid black;
+    height: 30px;
+    font-size: 1.4rem;
+    align-items: center;
+    padding: 4px;
+}
+
+.numero-conexiones{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    background-color: silver;
+    padding: 2px;
+    border-radius: 50%;
+}
+.titulo-conexiones{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
